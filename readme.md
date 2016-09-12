@@ -4,8 +4,7 @@ To install the app:
 
 1. Create a database.
 2. Copy .env.example to .env and edit the database information as needed
-
-Run the following commands in a shell window:
+3. Run the following commands in a shell window:
 
 ```
 composer install
