@@ -7,11 +7,13 @@ To install the app:
 
 Run the following commands in a shell window:
 
-`composer install
+```
+composer install
 php artisan migrate
 npm install
 bower install
-gulp`
+gulp
+```
 
 If you want to run the tests, modify the $baseUrl in /tests/TestCase.php to point to the correct location of this app URL, then run
 
