@@ -8,6 +8,7 @@ To install the app:
 
 ```
 composer install
+php artisan key:generate
 php artisan migrate
 npm install
 bower install
