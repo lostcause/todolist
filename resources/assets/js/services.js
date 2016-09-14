@@ -11,7 +11,7 @@
                     $http.post(urls.BASE + '/auth/login', data).success(success).error(error)
                 },
                 logout: function (success) {
-                    delete $localStorage.token;
+                    $localStorage.$reset();
                     success();
                 }
             };
