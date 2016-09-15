@@ -7,6 +7,7 @@
 		   function ($rootScope, $scope, $location, $localStorage, Auth) {
 			   function successAuth(res) {
 				   $localStorage.token = res.token;
+				   console.log('Stored: ' + res.token);
 				   window.location = "/";
 			   }
 
@@ -43,5 +44,6 @@
 			   };
 
 			   $scope.token = $localStorage.token;
+			   console.log('Stored token: ' + $localStorage.token);
 		   }]);
 })();
